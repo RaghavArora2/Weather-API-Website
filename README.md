@@ -21,56 +21,52 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-Navigate to the Project Directory:
+   git clone https://github.com/RaghavArora2/Weather-API-Website
+   ```
 
-bash
-Copy code
-cd weather_new
-Create a Configuration File:
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd weather_new
+   ```
 
-Create a config.js file in the root directory of the project.
-Add your API key to config.js:
-javascript
-Copy code
-const API_KEY = "your-api-key-here";
-Open index.html:
+3. **Create a Configuration File**:
+   - Create a `config.js` file in the root directory of the project.
+   - Add your API key to `config.js`:
+     ```javascript
+     const API_KEY = "your-api-key-here";
+     ```
 
-Open index.html in your browser to view the application.
-Deployment
+4. **Open `index.html`**:
+   - Open `index.html` in your browser to view the application.
+
+## Deployment
+
 As of now, the project is not hosted. You can run it locally by following the steps in the "Getting Started" section.
 
-Adding to .gitignore
-To ensure your config.js file is not pushed to GitHub, add it to your .gitignore file:
+## Contributing
 
-Create a .gitignore File (if it doesn't exist):
-
-bash
-Copy code
-echo "config.js" > .gitignore
-Add Other Files to Ignore:
-
-You can add other files or directories to .gitignore as needed.
-Contributing
 If you would like to contribute to this project, please follow these guidelines:
 
-Fork the Repository.
-Create a New Branch:
-bash
-Copy code
-git checkout -b feature/your-feature
-Make Your Changes.
-Commit Your Changes:
-bash
-Copy code
-git commit -m "Add some feature"
-Push to the Branch:
-bash
-Copy code
-git push origin feature/your-feature
-Create a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. **Make Your Changes**.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+5. **Push to the Branch**:
+   ```bash
+   git push origin feature/your-feature
+   ```
+6. **Create a Pull Request**.
 
-Acknowledgements
-OpenWeatherMap: For providing the weather data API.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- **OpenWeatherMap**: For providing the weather data API.
